@@ -13,10 +13,10 @@
         //Printing to HTML using echo
         echo 'PHP Sentence <br/>';
         echo 'PHP Sentence 2';
-    ?>
+   
 
 
-    <?php
+    
         //declare variable
         $club = 'Manchester United';
         $age = 18;
@@ -29,6 +29,7 @@
         echo "<h2>Wayne Rooney played for $club. He joined at age $age </h2>";
     ?>
 
+<button type="button" class="btn btn-success">CLICK HERE NOW!</button>
 
 <?php 
 require 'includes/footer.php'
